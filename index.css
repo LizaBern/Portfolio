@@ -1,0 +1,216 @@
+
+* {
+	transition: all 0.1s ease;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background-color: #f1f1f1;
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+.round {
+    border-radius: 500px; 
+    border: 2px solid #f1f1f1;
+    box-sizing: 0 0 15px #f1f1f1;
+    margin-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #333; font-weight: normal; }
+h1 { font-size: 38px; margin: 0 0 20px 0; padding: 5px 0 }
+h2 { font-size: 30px; margin: 0 0 15px 0; padding: 5px 0; }
+h3 { font-size: 24px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+
+.cleaner { clear: both }
+
+.float_r { float: right }
+
+/* ------------------ */
+
+#templatemo_wrapper {
+	width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+/* menu */
+#templatemo_menu {
+	width: 960px;
+	height: 70px;
+    background-color: rgb(1, 66, 1);
+    float: center;
+    text-align: center;
+}
+
+#templatemo_menu ul {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	width: 94px;
+	height: 60px;
+	padding: 10px 0 0;
+	margin-left: 1px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	color: #f1f1f1;
+	font-weight: 400;
+	/* outline: none;   */
+}
+
+/* end of menu */
+
+#templatemo_main {
+	clear: both;
+	width: 960px;
+	padding: 20px 0 40px;
+}
+
+.content_box {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 2px dotted #ccc; 
+    background-image: url(images/FonZelen.jpg); 
+    color: #f1f1f1; 
+    float: center;
+    text-align: center;
+} 
+
+.project_collection h2 {
+	color: black;
+}
+
+.pc_box {
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 280px;
+	float: left;
+	margin: 0 60px 60px 0;
+}
+
+.pc_box_last{
+	margin-right: 0;
+}
+
+.pc_box_content { padding-left: 15px }
+.img_cap { font-style: italic; color: black; font-size: 14px }
+.pc_box_image {
+	position: relative;
+	width: 280px;
+	height: 128px;
+}
+
+.pc_box_image img {
+	margin: 20px 0 0 25px;
+	width: 238px;
+	height: 88px;
+}
+
+.pc_box_image span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 280px;
+	height: 125px;
+}
+
+#templatemo_footer_wrapper {
+	clear: both;
+	width: 100%;
+	/* height: 434px; */
+	/* height: 150px; */
+    
+}
+
+#templatemo_footer {
+	/* overflow: hidden; */
+	width: 960px; 
+	height: 140px; 
+	padding: 15px 0 15px; 
+	margin: 0 auto;
+	color: #f1f1f1;
+    background-image: url(images/FonZelen.jpg);
+    float: center;
+    text-align: center;
+}
+
+.footer_box {
+	margin-right: 30px;
+    color:#f1f1f1;;
+}
+
+.footer_box h4 {
+    color: #f1f1f1;
+    font-size: 26px;
+	margin-bottom: 20px
+    
+}
+.footer_box img{
+    margin: 1px 0 0 1px;
+	width: 30px;
+	height: 30px;
+}
+
+.footer_list { margin: 0; padding: 0; list-style: none }
+.footer_list li { margin: 0 0 5px; padding: 0 0 5px; }
+.footer_list li a { color: #746522; }
+.footer_list li a:hover { color: #CC0000; text-decoration: none }
+
+#footer_menu_box { clear: both; width: 960px; height: 37px; margin: 0 auto; text-align: center }
+.footer_menu { margin: 0; padding: 10px 0; list-style: none }
+.footer_menu li { margin: 0 30px; padding: 0; display: inline }
+.footer_menu li a { color: #FFFFFF }
+.footer_menu li a:hover { color: #FFCC00 }
+
+#copyright {
+	clear: both;
+	width: 960px;
+	height: 74px;
+	margin: 0 auto;
+    margin-top: 10px; 
+	text-align: center;
+    color: #FFFFFF;
+}
+
+#copyright .left {
+	float: center;
+    text-align: center;
+    background-color: rgb(1, 66, 1);
+}
+
+.phone {
+	color:#f1f1f1;
+	font-size: 14px;
+	font-weight: 700;
+}
+.phone a {
+	color:#f1f1f1;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+
+@media all and (max-width: 992px) { 
+	#templatemo_main {
+		width: 450px;
+	}
+}  
